@@ -36,7 +36,7 @@ It will prioritize hosts descendingly according to the array index, the more the
 
 ## Performance
 
-I had a feeling that the performance migh not be stellar. So, I tried rsync over the forwarding port, and see the CPU usage at the time.
+I had a feeling that the performance migh not be stellar. So, I tried copy data over the forwarding port, and see the CPU usage at the time.
 
 ![](https://pictr.com/images/2017/09/19/d33d0b880d32845ca9e5c0d2c07a3d40.png)
 
