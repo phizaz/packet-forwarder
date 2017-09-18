@@ -9,7 +9,7 @@ const INCOMING_PORT = 2022
  */
 const OUTGOING = [
     { host: '192.168.1.100', port: 22 },
-    { host: 'konpat.thddns.net', port: 3830 }
+    { host: 'myhost.ddns.net', port: 2222 }
 ]
 
 /**
