@@ -10,7 +10,7 @@ Thus, to connect to the home server from outside you need the router's public ip
 
 Now, you want to connect to your home server from inside you use `<local_ip>:22` but when you are outside you use `<real_ip>:2022`. This causes inconveniences.
 
-This **Packet Forwarder** will unify this to `localhost:<port_of_your_choice>`. You give it a list of hosts and ips to which you want to forwar, it will forward to the "first" reachable host.
+This **Packet Forwarder** will unify this to `localhost:<port_of_your_choice>`. You give it a list of hosts and ips to which you want to forward, it will forward to the "first" reachable host.
 
 So, when you are inside the `<local_ip>:22` is reachable then it will forward to this. But, on the other hand, when you are outside `<local_ip>:22` is not reachable anymore then it will forward to `<real_ip>:2022` automatically instead.
 
