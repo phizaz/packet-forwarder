@@ -1,6 +1,6 @@
 # Packet Forwarder
 
-Forwarding all packets from a given local port to a remote port with fallback ports.
+Forwarding all packets from a given local port to a remote port with priorities.
 
 ## Rationale
 
