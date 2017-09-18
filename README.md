@@ -33,3 +33,14 @@ const OUTGOING = [
 ```
 
 It will prioritize hosts descendingly according to the array index, the more the index the less the priority.
+
+## Performance
+
+I had a feeling that the performance migh not be stellar. So, I tried rsync over the forwarding port, and see the CPU usage at the time.
+
+![](https://pictr.com/images/2017/09/19/d33d0b880d32845ca9e5c0d2c07a3d40.png)
+
+It is clearly not scientific. Hope it might help.
+
+Note: my connection at the time is Wi-Fi.
+
